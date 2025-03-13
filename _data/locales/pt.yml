@@ -1,0 +1,80 @@
+# O texto do layout do site
+
+lang_name: 🇵🇹 Português
+
+# ----- Rótulos comuns -----
+
+layout:
+  post: Postagem
+  category: Categoria
+  tag: Tag
+
+sidebar:
+  tagline: Desenvolvedor Full Stack Ruby on Rails e JavaScript
+
+# As abas da barra lateral
+tabs:
+  # formato: <nome_do_arquivo_sem_extensão>: <valor>
+  home: Início
+  categories: Categorias
+  tags: Tags
+  archives: Arquivos
+  about: Sobre
+
+# O texto exibido na barra de pesquisa e nos resultados da pesquisa
+search:
+  hint: pesquisa
+  cancel: Cancelar
+  no_results: Opa! Nenhum resultado encontrado.
+
+panel:
+  lastmod: Recentemente atualizado
+  trending_tags: Tags em alta
+  toc: Conteúdo
+
+copyright:
+  # Exibido na parte inferior da postagem
+  license:
+    template: Todos os direitos reservados pelo autor.
+
+  # Exibido no rodapé
+  brief: Todos os direitos reservados.
+  verbose: >-
+    Este conteúdo é protegido por direitos autorais e não pode ser reproduzido, distribuído, transmitido, exibido, publicado ou divulgado sem a autorização prévia do autor.
+    Citações curtas, com a devida atribuição, são permitidas.
+
+meta: Desenvolvido por :PLATFORM com o tema :THEME
+
+not_found:
+  statment: Desculpe, não encontramos esta URL ou ela aponta para algo que não existe.
+
+notification:
+  update_found: Uma nova versão do conteúdo está disponível.
+  update: Atualizar
+
+# ----- Rótulos relacionados a postagens -----
+
+post:
+  written_by: Por
+  posted: Publicado
+  updated: Atualizado
+  words: palavras
+  pageview_measure: visualizações
+  read_time:
+    unit: min
+    prompt: de leitura
+  relate_posts: Outras leituras
+  share: Compartilhar
+  button:
+    next: Mais recente
+    previous: Mais antigo
+    copy_code:
+      succeed: Copiado!
+    share_link:
+      title: Copiar link
+      succeed: Link copiado com sucesso!
+
+# Página de categorias
+categories:
+  category_measure: categorias
+  post_measure: postagens

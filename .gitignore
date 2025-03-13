@@ -28,3 +28,13 @@ package-lock.json
 # Misc
 _sass/vendors
 assets/js/dist
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+yarn-error.log
+yarn-debug.log*
+npm-debug.log*
+npm-debug.log
