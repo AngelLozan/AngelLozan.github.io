@@ -20,7 +20,9 @@ order: 5
     <label for="message">Message:</label>
     <textarea id="message" name="message" rows="5" required></textarea>
 
-    <div class="g-recaptcha" data-sitekey="6LcTroUnAAAAAM1HpSVBQjjcjRKuSxDJLr7R7rlS"></div>
+    <div class="d-flex justify-content-center">
+      <div class="g-recaptcha" data-sitekey="6LcTroUnAAAAAM1HpSVBQjjcjRKuSxDJLr7R7rlS"></div>
+    </div>
     <br/>
 
     <button type="submit">Send</button>
