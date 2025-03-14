@@ -55,7 +55,7 @@ notification:
 # ----- Posts related labels -----
 
 post:
-  written_by: By
+  written_by: By AngelLozan
   posted: Posted
   updated: Updated
   words: words
