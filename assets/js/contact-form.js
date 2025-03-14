@@ -2,12 +2,23 @@
 
   (function () {
     emailjs.init('mosyBz7sAhDjmcMB2');
-    })();
+  })();
 
   const form = document.getElementById("contactForm");
+  const button = document.getElementById("submitBtn");
+
+  document.onload(() => {
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl)
+    });
+  });
+   
 
   form.addEventListener("submit", function (event) {
       event.preventDefault();
+      button.disabled = true;
+      button.innerHTML = "Sending...";
       const serviceID = "service_oppg3kr";
       const templateID = "template_ebraw3g";
 
@@ -15,12 +26,20 @@
       emailjs.sendForm(serviceID, templateID, this).then(
         (response) => {
           document.getElementById("formMessage").style.display = "block";
+          setTimeout(() => {
+            document.getElementById("formMessage").style.display = "none";
+          }, 4000);
           console.log("SUCCESS!", response.status, response.text);
+          button.innerHTML = "Send";
+          button.disabled = false;
           form.reset();
         },
         (error) => {
           console.log("FAILED...", error);
           alert("FAILED...", error);
+          form.reset();
+          button.innerHTML = "Send";
+          button.disabled = false;
         }
       );
     });

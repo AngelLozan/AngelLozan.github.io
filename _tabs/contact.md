@@ -8,24 +8,24 @@ order: 5
 ---
 <div class="contact-page">
   <form id="contactForm">
-    <label for="name">Name:</label>
+    <label for="name" data-bs-toggle="tooltip" data-bs-placement="left" title="Required">Name*:</label>
     <input type="text" id="name" name="name" required />
 
-    <label for="email">Email:</label>
+    <label for="email" data-bs-toggle="tooltip" data-bs-placement="left" title="Required">Email*:</label>
     <input type="email" id="email" name="email" required />
 
-    <label for="subject">Subject:</label>
+    <label for="subject" data-bs-toggle="tooltip" data-bs-placement="left" title="Required">Subject*:</label>
     <input type="text" name="subject" id="subject" required />
     
-    <label for="message">Message:</label>
+    <label for="message" data-bs-toggle="tooltip" data-bs-placement="left" title="Required">Message*:</label>
     <textarea id="message" name="message" rows="5" required></textarea>
 
-    <div class="d-flex justify-content-center">
+    <div class="d-flex justify-content-center" data-bs-toggle="tooltip" data-bs-placement="left" title="Required">
       <div class="g-recaptcha" data-sitekey="6LcTroUnAAAAAM1HpSVBQjjcjRKuSxDJLr7R7rlS"></div>
     </div>
     <br/>
 
-    <button type="submit">Send</button>
+    <button id="submitBtn" type="submit">Send</button>
   </form>
 
   <!-- Message container for feedback -->
