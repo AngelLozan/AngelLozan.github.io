@@ -15,11 +15,12 @@ sidebar:
 # As abas da barra lateral
 tabs:
   # formato: <nome_do_arquivo_sem_extensão>: <valor>
-  home: Início
+  home: Projetos
   categories: Categorias
-  tags: Tags
-  archives: Arquivos
-  about: Sobre
+  tags: Tags dos projetos
+  archives: Histórico
+  about: Sobre mim
+  contact: Contato
 
 # O texto exibido na barra de pesquisa e nos resultados da pesquisa
 search:

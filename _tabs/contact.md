@@ -7,6 +7,10 @@ icon: fas fa-envelope
 order: 5
 ---
 <div class="contact-page">
+
+  <p>
+   Please get in touch with me, I'd be happy to discuss various projects, ideas and opportunities. I'll get back to you as soon as possible 🙏
+  </p>
   <form id="contactForm">
     <label for="name" data-bs-toggle="tooltip" data-bs-placement="left" title="Required">Name*:</label>
     <input type="text" id="name" name="name" required />
@@ -21,7 +25,7 @@ order: 5
     <textarea id="message" name="message" rows="5" required></textarea>
 
     <div class="d-flex justify-content-center" data-bs-toggle="tooltip" data-bs-placement="left" title="Required">
-      <div class="g-recaptcha" data-sitekey="6LcTroUnAAAAAM1HpSVBQjjcjRKuSxDJLr7R7rlS"></div>
+      <div class="g-recaptcha" data-sitekey="6LcTroUnAAAAAM1HpSVBQjjcjRKuSxDJLr7R7rlS" data-theme="dark"></div>
     </div>
     <br/>
 
